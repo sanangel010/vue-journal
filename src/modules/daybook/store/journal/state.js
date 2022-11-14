@@ -2,25 +2,35 @@
 // Es el lugar donde se esta almacenando la información
 
 export default () => ({
+    // El isLoading se lanza en true ya que cuando se inicie la aplicacón y el state
+    // por lo que se aprovechara para lanzar un loading.
     isLoading: true,
+    entries: []
+
+    /*
     entries: [
         {
-            id: new Date().getTime(),
+            //id: new Date().getTime(),
+            id: '1',
             date: new Date().toDateString(),
             text:'Aute laboris est officia enim commodo aliquip commodo incididunt anim fugiat nostrud veniam aute excepteur. Qui do voluptate ipsum eu esse mollit. Esse excepteur elit eiusmod magna aliqua dolore ipsum magna consectetur quis mollit. Exercitation veniam mollit tempor culpa cillum qui dolor aliqua pariatur minim officia. Enim pariatur anim reprehenderit esse excepteur aliqua aliquip ad et non anim labore et.',
             picture: null,
         },
         {
-            id: new Date().getTime() + 1000,
-            date: new Date().toDateString(),
+            //id: new Date().getTime() + 1000,
+            id: '2',
+            date: new Date().toDateString() + 1,
             text:'Reprehenderit dolor sunt ea adipisicing sunt ad nulla nostrud Lorem eu eiusmod officia. Nulla Lorem veniam amet in culpa nisi magna consequat Lorem consequat et. Nostrud consequat eiusmod esse ex veniam culpa ex ad ex enim esse nulla. Ea ex laborum minim sunt exercitation officia tempor. Laborum cillum aute duis ut exercitation reprehenderit aute reprehenderit.',
             picture: null,
         },
         {
-            id: new Date().getTime() + 2000,
-            date: new Date().toDateString(),
+            //id: new Date().getTime() + 2000,
+            id: '3',
+            date: new Date().toDateString() + 4,
             text:'Nisi dolor in ex ad magna amet qui qui est velit proident. Enim dolore dolore do mollit cupidatat id. Amet ipsum irure duis magna laborum nostrud. Est proident minim laboris magna deserunt aute cupidatat velit occaecat excepteur ullamco consequat et proident. Anim magna aute eu fugiat. Est Lorem quis ea esse in. Do occaecat do cupidatat ex officia dolor cillum dolore consequat.',
             picture: null,
         },
     ]
+    */
+
 })
